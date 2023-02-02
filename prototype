@@ -1,0 +1,25 @@
+//if,else ifを使用する簡単なFizzBuzz
+//0～30まででFizzBuzzを判定する
+//3で割り切れる場合＝  Fizz
+//5で割り切れる場合＝　Buzz
+//3でも5でも割り切れる場合= FizzBuzz
+//どれでも無い場合＝　数字そのまま
+
+import java.util*;
+
+public class Main{
+  public static void(String[] args){
+    for(int i=0;i<=30;i++){
+      if(i%3==0 && i%5=00){
+        System.out.println("FizzBuzz");
+      }else if(i%3==0){
+        System.out.println("Fizz");
+      }else if(i%5==0){
+        System.out.println("Buzz");
+      }else{
+        System.out.println(i);
+      }
+    }
+  }
+}
+
